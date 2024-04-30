@@ -76,8 +76,8 @@ Pre-request Script:
     //Date
     const moment = require('moment')
     const today = moment()
-    pm.environment.set("checkin", today.add(1,'d').format("YYYY-MM-DD"))
-    pm.environment.set("checkout",today.add(5,'d').format("YYYY-MM-DD") )
+    pm.environment.set("checkin", today.add(1,'d').format("YYYY-DD-MM"))
+    pm.environment.set("checkout",today.add(5,'d').format("YYYY-DD-MM") )
     
     var additionalNeeds = pm.variables.replaceIn("{{$randomNoun}}")
     pm.environment.set("additionalNeeds", additionalNeeds)
