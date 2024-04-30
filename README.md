@@ -23,8 +23,11 @@ Newman Html Report Library
 
 Installation
 1.Postman: If you haven't already, download and install Postman.
+
 2.Clone the repository:
+
  git clone https: https://github.com/Farihahasann/Automated-Testing-of-Hotel-Booking-API-with-Newman-report
+ 
 3.Import the Postman collection:
   Open Postman.
   Click on the Import button.
